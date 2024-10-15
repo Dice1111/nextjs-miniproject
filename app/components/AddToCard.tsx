@@ -7,7 +7,7 @@ import React from 'react'
 const AddToCard = () => {
   return (
     <div>
-        <button onClick={()=>console.log("apple")}>Click here</button>
+        <button className='btn btn-primary' onClick={()=>console.log("apple")}>Click here</button>
     </div>
   )
 }
